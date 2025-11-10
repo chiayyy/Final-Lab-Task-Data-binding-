@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NotesApp</name>
+    </assembly>
+    <members>
+        <member name="T:NotesApp.ViewModels.NoteViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:NotesApp.ViewModels.NoteViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:NotesApp.ViewModels.NoteViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:NotesApp.ViewModels.NoteViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NotesApp.ViewModels.NoteViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:NotesApp.ViewModels.NoteViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:NotesApp.ViewModels.NoteViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:NotesApp.ViewModels.NoteViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:NotesApp.ViewModels.NoteViewModel.Delete"/>.</summary>
+        </member>
+        <member name="T:NotesApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>
